@@ -1,13 +1,25 @@
 {
+  "_comentario_geral": "Este arquivo package.json guarda informacoes sobre o projeto Node.js. Ele e lido pelo npm e por outras ferramentas para saber nome, versao, tipo de modulo, comandos e metadados do projeto.",
+  "_comentario_json": "JSON significa JavaScript Object Notation. Ele organiza dados em pares de chave e valor. As chaves ficam entre aspas, depois vem dois pontos, e depois o valor. Cada par e separado por virgula.",
   "name": "1--fundamentos-node",
+  "_comentario_name": "name e o nome do pacote/projeto. O valor 1--fundamentos-node e o nome deste projeto para o npm.",
   "type": "module",
+  "_comentario_type": "type define como o Node.js interpreta os arquivos JavaScript. module permite usar import/export em vez de require/module.exports.",
   "version": "1.0.0",
+  "_comentario_version": "version e a versao do projeto. 1.0.0 segue o formato major.minor.patch: grande mudanca, melhoria pequena e correcao.",
   "description": "",
+  "_comentario_description": "description e uma descricao curta do projeto. Esta vazia porque ainda nao foi preenchida.",
   "main": "index.js",
+  "_comentario_main": "main indica o arquivo principal do pacote quando outro projeto importa este pacote. Aqui esta index.js, mesmo que o arquivo atual do servidor esteja em src/server.js.",
   "scripts": {
+    "_comentario_scripts": "scripts guarda comandos que podem ser executados com npm run nome-do-script.",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "_comentario_test": "test e um script padrao criado pelo npm init. echo imprime a mensagem no terminal. As barras invertidas antes das aspas fazem as aspas internas serem texto. && executa o proximo comando se o anterior funcionar. exit 1 encerra com erro.",
   "keywords": [],
+  "_comentario_keywords": "keywords e uma lista de palavras-chave do projeto. [] significa lista vazia.",
   "author": "",
-  "license": "ISC"
+  "_comentario_author": "author indica o autor do projeto. Esta vazio porque ainda nao foi preenchido.",
+  "license": "ISC",
+  "_comentario_license": "license informa a licenca do projeto, ou seja, as regras de uso/distribuicao. ISC e uma licenca aberta e simples."
 }
