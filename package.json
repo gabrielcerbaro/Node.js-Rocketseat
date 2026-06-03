@@ -13,7 +13,7 @@
   "_comentario_main": "main indica o arquivo principal do pacote quando outro projeto importa este pacote. Aqui esta index.js, mesmo que o arquivo atual do servidor esteja em src/server.js.",
   "scripts": {
     "_comentario_scripts": "scripts guarda comandos que podem ser executados com npm run nome-do-script.",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch src/server.js"
   },
   "_comentario_test": "test e um script padrao criado pelo npm init. echo imprime a mensagem no terminal. As barras invertidas antes das aspas fazem as aspas internas serem texto. && executa o proximo comando se o anterior funcionar. exit 1 encerra com erro.",
   "keywords": [],
